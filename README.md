@@ -29,16 +29,15 @@ The challenge was to find the right parameters for the clustering (here in parti
 
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 
-I modified the provided script in a few noticable places, including using HSV instead of RGB, and increasing the number of extractions from 5 to 100 for each object. The training results were satisified, as shown in the below figure. 91% accuracy was achieved in the 8-object classification task.
+I modified the provided script in a few noticable places, including using HSV instead of RGB, and increasing the number of extractions from 5 to 100 for each object. The training results were satisifing, as shown in the below figure. an averaging 91% accuracy was achieved in the 8-object classification task.
 
-![demo-1](https://github.com/onearth00/RoboND-Perception-Project/blob/master/confusion%20matrix.png)
+![SVM accuracy](https://github.com/onearth00/RoboND-Perception-Project/blob/master/confusion%20matrix.png)
 
 ### Pick and Place Setup
 
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
-And here's another image! 
-![demo-2](https://user-images.githubusercontent.com/20687560/28748286-9f65680e-7468-11e7-83dc-f1a32380b89c.png)
+We achieved 100% accuracy in classifying objects in all three test worlds, and successfully outputted the corresponding yaml files. 
 
 Spend some time at the end to discuss your code, what techniques you used, what worked and why, where the implementation might fail and how you might improve it if you were going to pursue this project further.  
 
