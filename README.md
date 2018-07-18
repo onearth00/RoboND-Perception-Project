@@ -27,7 +27,7 @@ I found that a two-step passthrough filtering (step 3 and 4 in the pipeline) is 
 
 The challenge was to find the right parameters for the clustering task (here in particular the cluster tolerance, min, and max cluster size). It was quite a bit of trial-and-error attempts.
 
-#### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
+#### 3. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 
 I modified the provided script in a few noticable places, including using HSV instead of RGB, and increasing the number of extractions from 5 to 100 for each object. The training results were satisifing, as shown in the below figure. An averaging 91% accuracy was achieved in the 8-object classification task.
 
