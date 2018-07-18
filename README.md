@@ -25,7 +25,7 @@ I found that a two-step passthrough filtering (step 3 and 4 in the pipeline) is 
 
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 
-The challenge was to find the right parameters for the clustering (here in particular the cluster tolerance, min, and max cluster size).
+The challenge was to find the right parameters for the clustering task (here in particular the cluster tolerance, min, and max cluster size). It was quite a bit of trial-and-error attempts.
 
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 
