@@ -29,7 +29,7 @@ The challenge was to find the right parameters for the clustering task (here in 
 
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 
-I modified the provided script in a few noticable places, including using HSV instead of RGB, and increasing the number of extractions from 5 to 100 for each object. The training results were satisifing, as shown in the below figure. an averaging 91% accuracy was achieved in the 8-object classification task.
+I modified the provided script in a few noticable places, including using HSV instead of RGB, and increasing the number of extractions from 5 to 100 for each object. The training results were satisifing, as shown in the below figure. An averaging 91% accuracy was achieved in the 8-object classification task.
 
 ![SVM accuracy](https://github.com/onearth00/RoboND-Perception-Project/blob/master/confusion%20matrix.png)
 
