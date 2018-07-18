@@ -45,7 +45,7 @@ Here is for world one and [the corresponding yaml file](https://github.com/onear
 Here is for world two and [the corresponding yaml file](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/output_2.yaml)
 ![world2](https://github.com/onearth00/RoboND-Perception-Project/blob/master/yaml2_classified.png)
 
-Here is for world two and [the corresponding yaml file](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/output_3.yaml)
+Here is for world three and [the corresponding yaml file](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/output_3.yaml)
 ![world2](https://github.com/onearth00/RoboND-Perception-Project/blob/master/yaml3_classified.png)
 
 
