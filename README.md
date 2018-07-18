@@ -14,16 +14,22 @@ The pipeline is built as below:
 8. Apply a trained SVM classifier to discern and label objects
 9. Generate Yaml files for picking and placing objects
 
-[The script can be found here.](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/pipeline.py)
+[The python script can be found here.](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/pipeline.py)
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
 ### Exercise 1, 2 and 3 pipeline implemented
 #### 1. Complete Exercise 1 steps. Pipeline for filtering and RANSAC plane fitting implemented.
 
+I found that a two-step passthrough filtering (step 3 and 4 in the pipeline) is necessary to clean out things other than the objects of interests.
+
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 
+The challenge was to find the right parameters for the clustering (here in particular the cluster tolerance, min, and max cluster size).
+
 #### 2. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
+
+I modified the provided script in a few noticable places, including using HSV instead of RGB, and increasing the number of extractions from 5 to 100 for each object. The training results were satisified, as shown in the below figure. 91% accuracy was achieved in the 8-object classification task.
 
 ![demo-1](https://github.com/onearth00/RoboND-Perception-Project/blob/master/confusion%20matrix.png)
 
