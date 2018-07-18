@@ -8,7 +8,7 @@ The pipeline is built as below:
 2. Apply Voxel Grid Downsampling 
 3. Apply Passthrough along Z-Axis
 4. Apply Passthrough along X-Axis 
-5. Apply Outlier Filter to remove staistical noise 
+5. Apply Outlier Filter to remove statistical noise 
 6. Apply RANSAC PLANE Filter
 7. Perform DBSCAN clustering
 8. Apply a trained SVM classifier to discern and label objects
