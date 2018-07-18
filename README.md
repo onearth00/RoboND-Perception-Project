@@ -39,7 +39,13 @@ I modified the provided script in a few noticable places, including using HSV in
 
 We achieved 100% accuracy in classifying objects in all three test worlds, and successfully outputted the corresponding yaml files. 
 
-Spend some time at the end to discuss your code, what techniques you used, what worked and why, where the implementation might fail and how you might improve it if you were going to pursue this project further.  
+Here is for world one and [the corresponding yaml file](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/output_1.yaml)
+![world1](https://github.com/onearth00/RoboND-Perception-Project/blob/master/yaml1_classified.png)
 
+Here is for world two and [the corresponding yaml file](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/output_2.yaml)
+![world2](https://github.com/onearth00/RoboND-Perception-Project/blob/master/yaml2_classified.png)
+
+Here is for world two and [the corresponding yaml file](https://github.com/onearth00/RoboND-Perception-Project/blob/master/pr2_robot/scripts/output_3.yaml)
+![world2](https://github.com/onearth00/RoboND-Perception-Project/blob/master/yaml3_classified.png)
 
 
