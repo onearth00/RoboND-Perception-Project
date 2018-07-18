@@ -4,13 +4,13 @@ Ray Tang 07/18/2018
 
 The pipeline is built as below: 
 
-1. RGB-D camera Image 
-2. Voxel Grid Downsampling 
-3. Passthrough along Z-Axis
-4. Passthrough along X-Axis 
-5. Outlier Filter to remove staistical noise 
-6. RANSAC PLANE Filter
-7. DBSCAN clustering
+1. Acquire RGB-D camera Image 
+2. Apply Voxel Grid Downsampling 
+3. Apply Passthrough along Z-Axis
+4. Apply Passthrough along X-Axis 
+5. Apply Outlier Filter to remove staistical noise 
+6. Apply RANSAC PLANE Filter
+7. Perform DBSCAN clustering
 8. Apply a trained SVM classifier to discern and label objects
 9. Generate Yaml files for picking and placing objects
 
